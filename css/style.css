@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #9ba4a5;
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    margin: 17px 0px;
+    margin-top: 26px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container{
+    width: 50vw;
+    height: 15vh;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#viewer_id{
+    display: block;
+    position: absolute;
+    top: 17%;
+    right: 27%
+
+}
+#product_id{
+    display: block;
+    position: absolute;
+    top: 17%;
+    left: 27%
+    
+}
+#btn{
+    width: 130px;
+    height: 30px;
+    margin: 0px auto;
+    position: relative;
+    top: 54%;
+    display: inline-block;
+    border-radius: 10px;
+}
+#btn:hover{
+    color: rgb(218, 235, 240);
+    background-color: grey;
+}
+
+
+.showdata{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    padding: 12px;
+    border-radius: 12px;
+}
+.bigcontainer{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 16px
+}
+.pagination{
+    position: relative;
+    justify-content: center;
+    margin-top: 35px;
+    
+    
+}
+.header{
+    background-color: #a4d4e685;
+    position: sticky;
+    margin-top: -16px;
+    margin-bottom: 34px;
+}
+.showmorebtn{
+    border: 2px solid brown;
+    width: 50%;
+    position: inherit;
+    margin: auto;
+    border-radius: 7px;
+    font-style: oblique;
+    color: brown;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.showmorebtn:hover{
+    background-color: rgb(20, 70, 104);
+    color: black;
+}
